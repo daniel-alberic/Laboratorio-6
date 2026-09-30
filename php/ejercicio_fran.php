@@ -26,7 +26,7 @@ foreach ($notas as $nota) {
     } else {
         $notasValidas++;
         $suma += $nota;
-
+        // realizando mi codigo php//
         if ($nota >= 6) {
             $aprobados++;
             echo "<span style='color: #27ae60;'>✔ Nota $nota:</span> Aprobado<br><br>";
@@ -52,7 +52,7 @@ if ($notasValidas > 0) {
     echo "<p style='color: red;'>No se encontraron notas válidas para calcular estadísticas.</p>";
 }
 
-?>
+?> 
 
 </body>
 </html>
